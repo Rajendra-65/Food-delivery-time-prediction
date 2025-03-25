@@ -1,0 +1,150 @@
+Random Forest (Bunch of Tree)
+
+	Wisdom of Croud (collective decision of many people)
+
+	e.g Supreme court Bench Case
+
+	All the tree from Random Forest are Decision Tree.
+	
+	We must tell that number of estimator needed n.estimator
+
+	we get same or different value in Random Forest.
+	
+	All the individual model are decision Tree.
+	
+Ensemble Model
+	
+	90% of model are Ensemble Model.	
+
+	useful when we are deal with overfitting.
+
+	Not 1 model we use Multi Model.
+	
+	Suppose we are predicting the price. 
+	
+	m1 = 20  , m2 = 22
+
+	price could be = ( 20 + 22 ) / 2 => 21
+
+
+parallel Model (RANDOM FOREST)
+		
+			data
+
+
+	m1	m2 	m3	m4 	m5
+
+	22	22 	20 	25	30
+
+	
+	avg of m = price
+
+
+Series Model (XG BOOST , GBM)
+
+
+			data
+
+			 m1
+			 m2
+			 m3
+
+Building on each other. It can be same or Different.
+
+
+same = > Bagging (parallel combination of model)
+
+Different => Boosting  (Series combination of model)
+
+/ Stacking / Bleding => models in parallel (model are different)
+
+
+sampling with Replacement => Bootstrap Sampling
+
+
+Regression			|		classification
+
+				|
+"Continuous"				"Discrete"
+				|
+
+price				|		"Sigmoid"
+
+Time				|
+
+Forecasting Temp		|
+
+		
+
+Bios and Variance (Trade Off)
+
+M1			D ->	Training
+			  ->  Testing  (unseen Data)
+
+Testing Accuracy -> 60% (model not learned Enough Highly biased)
+
+increase the complience  decrease the bias and increase the bias. 
+
+
+Training ] -> 95 %
+					=> Good Model
+Test ]->  91 %   
+
+
+if Training = 100 % then it is overfitted 
+
+also testing result would be very unsatishfied.  
+
+
+Boosting (Sequential Learning) (GBM)
+
+
+	Models in Sequence
+
+	Learn from each other
+
+  
+Gradient = Different
+
+Boosting = Improvement
+
+Model = trained MOdel
+
+
+m1          =>  		m2		=> 		m3
+
+
+		r1		r1y1		r2		r2y2
+
+
+xgboost 
+
+	extreme gradient bossting mechanism
+	Faster
+	boost ++
+ 
+
+Cross  Validation
+
+Train , Test , Validation
+
+
+100 data divided into 80 - 20
+
+
+1 part = 1 fold
+
+5 part = 5 fold then combined the accuracy
+
+Taking average of training and testing Accuracy.
+
+5 fold cross validation = k cross validation.
+
+
+Scaling
+
+Machine does not understand this
+
+ 	Salary			     Age
+
+	[pow(10,5) - pow(10,6)]	     [pow(10,1) - pow(10,2)]

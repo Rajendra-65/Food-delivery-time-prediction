@@ -1,0 +1,111 @@
+Machine Learning is Learning From Inshight Through Algorithm.
+
+Machine Takes Time and Experience to learn from Inshight.
+
+Machine can learn in two ways
+
+A. Rule System
+
+B. Huership
+
+Goal Of machine Learning is to find the Logic what is the function beheind th e output.
+
+
+[x,y f(x)]  -> Supervised
+		-> unsupervised
+		-> Reinforcement
+
+#### Based on Statistics ML are
+
+
+continous			|		Discrete
+				|
+stock price (500-1000)	| Age (10-30)
+				|
+				|
+				|
+				|
+				|
+
+
+###  Based on type 
+
+Numerical 			|		Categorical
+				|
+	4			|		cards, Transactions
+				|
+				|
+				|
+					
+
+###  Independent and Dependent
+
+
+Dependent					InDependent
+
+cost is dependent on	 |	but gender , temp , month , 							 |	weeknd are independent
+gender, temp,month weend |
+				 |
+				 |
+cost is target var	 |
+				 |
+
+\#\#\#\#\# Minimizing the cost functioin / j / error
+
+Normal Equation 			|		Gradient Descent 
+					|
+Differentiation			|		Iterative serch -
+					|
+approach				|		Algorithm
+					|
+Q1 and b are variabel in errf	|	y = Qx +b
+						Q = Q - alpha DJ / DQ (slope direcn)
+					|
+# for minimizing j		|	at some poin DJ/ DQ = 0  
+					|	(slope  0 stop the process)		
+dj / dq = 0				|	alpha = learning rate
+					|
+q ] ->				|
+
+
+
+function = coefficient + variable.
+
+we differentiate the function to get the limits.
+
+error function = 1/2n summation i = 0 to n pow((y - (Q1x1 +b)),2)
+
+-----   Example Algo -----
+
+
+y = mx+c
+
+
+f(3) = m3 + c
+
+####
+
+y = Q1X1 + b					Y' -> real
+							Y  -> Predicted
+							x1' -> feature (we dont know)
+
+error = Y' - y					Q1  -> coefficient (we know)
+
+
+
+error = y1' -(Q1X1'+b)
+
+error-total = 1 / pow(n,2) Sum i=0 to n pow((yi'-(Q1x1powi+b)),2) ## cost func
+
+
+
+### Error Reduction
+
+
+d f(x) / dx = f'x
+
+f(x) = max
+	 min
+
+f'(x) = 0 
+  x = 1, 2 (For maxima and Minima)
